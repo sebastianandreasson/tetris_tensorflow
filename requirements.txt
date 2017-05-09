@@ -1,0 +1,8 @@
+numpy
+pandas
+tensorflow
+opencv-python
+pyscreenshot
+tflearn
+pynput
+flask-socketio
