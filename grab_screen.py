@@ -3,15 +3,10 @@ import cv2
 import os
 from PIL import Image
 
-# X = 0
-# Y = 95
-# WIDTH = 356
-# HEIGHT = 70
-
-X = 10
-Y = 105
-WIDTH = 215
-HEIGHT = 440
+X = 10 # 0
+Y = 105 # 95
+WIDTH = 215 # 356
+HEIGHT = 440 # 440
 
 def process_img(original_img):
     processed_img = cv2.cvtColor(original_img, cv2.COLOR_BGR2GRAY)

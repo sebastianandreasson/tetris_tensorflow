@@ -39,20 +39,20 @@ def main():
         # left, right, space, up
         if index_max == 0:
             print('left')
-            # keyboard.press(Key.left)
-            # keyboard.release(Key.left)
+            keyboard.press(Key.left)
+            keyboard.release(Key.left)
         elif index_max == 1:
             print('right')
-            # keyboard.press(Key.right)
-            # keyboard.release(Key.right)
+            keyboard.press(Key.right)
+            keyboard.release(Key.right)
         elif index_max == 2:
             print('space')
-            # keyboard.press(Key.space)
-            # keyboard.release(Key.space)
+            keyboard.press(Key.space)
+            keyboard.release(Key.space)
         elif index_max == 3:
             print('rotate')
-            # keyboard.press(Key.up)
-            # keyboard.release(Key.up)
+            keyboard.press(Key.up)
+            keyboard.release(Key.up)
 
         time.sleep(0.5)
 
